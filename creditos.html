@@ -34,28 +34,28 @@
         </nav>
     <img src="assets/banner.png" class="img-fluid" alt="banner do site">
   <div class="list-group">
-    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+    <a href="#" id="credit-art" data-toggle="modal" data-target="#exampleModalCenter" class="list-group-item list-group-item-action flex-column align-items-start">
       <div class="d-flex w-100 justify-content-between">
         <h5 class="mb-1">Arthur Guerra</h5>
       </div>
       <p class="mb-1">As vezes Arthur, as vezes Guerra, as vezes Malpighi.</p>
       <small>Rival do Bruno de história</small>
     </a>
-    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+    <a href="#" id="credit-iag" data-toggle="modal" data-target="#exampleModalCenter" class="list-group-item list-group-item-action flex-column align-items-start">
       <div class="d-flex w-100 justify-content-between">
         <h5 class="mb-1"><del>Gustav</del>... Iago Gabino</h5>
       </div>
       <p class="mb-1">Pega 20 balas todo dia no Uber. R$400,00 de Uber por mês (compensa vendendo as balas).</p>
       <small class="text-muted">Mais conhecido como Gustavo.</small>
     </a>
-    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+    <a href="#" id="credit-enz" data-toggle="modal" data-target="#exampleModalCenter" class="list-group-item list-group-item-action flex-column align-items-start">
       <div class="d-flex w-100 justify-content-between">
         <h5 class="mb-1">Enzo Rodrigues</h5>
       </div>
       <p class="mb-1">3° aluno de INF-1A que mais marca presença na praça. Nas horas vagas ele dorme (na praça).</p>
       <small class="text-muted">Mais atoa impossível</small>
     </a>
-    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+    <a href="#" id="credit-gab" data-toggle="modal" data-target="#exampleModalCenter" class="list-group-item list-group-item-action flex-column align-items-start">
       <div class="d-flex w-100 justify-content-between">
         <h5 class="mb-1">Gabriel Castilho</h5>
       </div>
@@ -64,8 +64,31 @@
     </a>
   </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Redes Sociais</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <a id="fb" href=""><img src="https://image.flaticon.com/icons/svg/174/174848.svg"></a>
+        <a id="inst" href=""><img src="https://image.flaticon.com/icons/svg/174/174855.svg"></a>
+        <a id="tt" href=""><img src="https://image.flaticon.com/icons/svg/1216/1216739.svg"></a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="creditos.js"></script>
 </body>
 </html>
