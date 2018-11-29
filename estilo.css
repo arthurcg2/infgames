@@ -62,3 +62,9 @@ background-color: #e9ecef ;
 
     transition: all 0.3s;
 }
+
+#fb img, #inst img, #tt img{
+    height: 35px;
+    width: 35px;
+    margin-right: 15px;
+}
